@@ -12,28 +12,25 @@ def add_student():
     }
 
     students.append(student)
-    """
-    TODO: Prompt the user to enter student name, age, and grade.
-    Append the student as a dictionary to the students list.
-    """
-    pass
 
+    
+    # TODO: Prompt the user to enter student name, age, and grade.
+    # Append the student as a dictionary to the students list.
+    
 def view_students():
     print('======Student Profiles=====')
-    for student in students.items():
-        print(f"Student name: {student['name']} \n Age: {student['age']} \n ")
+    for student in students:
+        print(f"Student name: {student['name']} \n Age: {student['age']} \n grade: {student['grade']}")
 
-    """    
-    TODO: Loop through the students list and print each student's info.
-    """
-    pass
+    
+    # TODO: Loop through the students list and print each student's info.
+    
+
 
 def get_average_grade():
    
-   total_grade = sum(student['grade'] for student in students.item())
+   total_grade = sum(student['grade'] for student in students)
    avg_grade = total_grade/len(students)
 
-    """
-    TODO: Return the average grade of all students.
-    """
-    pass
+
+    # TODO: Return the average grade of all students.
