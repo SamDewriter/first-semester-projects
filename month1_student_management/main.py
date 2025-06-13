@@ -12,7 +12,8 @@ while True:
     elif choice == "2":
         view_students()
     elif choice == "3":
-        print(f"📊 Average Grade: {get_average_grade():.2f}")
+        get_average_grade()
+        # print(f"📊 Average Grade: {get_average_grade():.2f}")
     elif choice == "4":
         print("Goodbye!")
         break
