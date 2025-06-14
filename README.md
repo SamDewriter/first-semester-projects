@@ -130,6 +130,6 @@ python main.py
 
 - Python 3.x
 - PostgreSQL (recommended for Month 2)
-- Any text editor or IDE (VSCode, PyCharm, etc.)
+- VSCode
 
 Happy coding! 🎉

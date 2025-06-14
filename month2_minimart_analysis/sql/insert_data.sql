@@ -1,1 +1,3 @@
 -- SQL script to insert sample data
+---using the faker library, I populated the data table 
+--kindly find the attached insert.py file
