@@ -28,7 +28,6 @@ def view_students():
 
 
 def get_average_grade():
-   
    total_grade = sum(student['grade'] for student in students)
    avg_grade = total_grade/len(students)
 

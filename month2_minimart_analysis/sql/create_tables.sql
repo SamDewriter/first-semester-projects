@@ -9,8 +9,11 @@ CREATE TABLE products(
   product_id SERIAL PRIMARY KEY,
   product_name VARCHAR(125),
   category VARCHAR(125),
-  price FLOAT
+  price INT
   )
+
+  ALTER TABLE products 
+  ALTER COLUMN price FLOAT
 
 CREATE TABLE orders (
   order_id SERIAL PRIMARY KEY,
