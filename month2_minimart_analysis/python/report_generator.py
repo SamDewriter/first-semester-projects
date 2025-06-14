@@ -21,3 +21,11 @@ report = {
     "revenue_per_customer": revenue_per_customer
 }
 
+
+# Save to JSON file
+with open("sales_report.json", "w") as f:
+    json.dump(report, f, indent=4)
+
+# Print nicely
+import pprint
+pprint.pprint(report)
