@@ -1,0 +1,11 @@
+"order_id","customer_id","order_date","status","payment_method","shipping_address","delivery_date"
+1,1,2025-06-01,Completed,M-Pesa,Kisumu,2025-06-02
+2,2,2025-06-02,Completed,Cash,Nairobi,2025-06-03
+3,3,2025-06-03,Pending,M-Pesa,Mombasa,
+4,4,2025-06-04,Completed,Card,Eldoret,2025-06-05
+5,5,2025-06-05,Shipped,M-Pesa,Nakuru,
+6,6,2025-06-06,Completed,M-Pesa,Thika,2025-06-07
+7,7,2025-06-07,Pending,Cash,Kisii,
+8,8,2025-06-08,Completed,M-Pesa,Garissa,2025-06-09
+9,9,2025-06-09,Completed,Card,Meru,2025-06-10
+10,10,2025-06-10,Shipped,M-Pesa,Kitui,
