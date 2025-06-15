@@ -1,0 +1,11 @@
+{
+    "total_products_sold": 13,
+    "most_popular_product": "Yoga Mat",
+    "revenue_per_customer": {
+        "John Doe": 279.48,
+        "Jane Smith": 99.9,
+        "Alice Johnson": 77.97,
+        "Bob Brown": 199.99,
+        "Emily Davis": 100.0
+    }
+}
