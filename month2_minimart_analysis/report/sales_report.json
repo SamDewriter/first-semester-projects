@@ -1,0 +1,12 @@
+{
+    "sales_summary": {
+        "total_items_sold": 10,
+        "most_popular_product": "Organic Apples"
+    },
+    "customer_revenue": {
+        "Customer_1": "$9.74",
+        "Customer_2": "$12.00",
+        "Customer_3": "$17.50",
+        "Customer_4": "$7.99"
+    }
+}
