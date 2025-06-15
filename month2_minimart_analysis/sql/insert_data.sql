@@ -1,1 +1,0 @@
--- SQL script to insert sample data
