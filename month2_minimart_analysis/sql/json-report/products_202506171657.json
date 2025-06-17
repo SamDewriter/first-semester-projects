@@ -1,0 +1,93 @@
+{
+"SELECT * FROM products": [
+	{
+		"product_id" : 1,
+		"product_name" : "Laptop Pro 15",
+		"category" : "Electronics",
+		"price" : 1299.99
+	},
+	{
+		"product_id" : 2,
+		"product_name" : "Wireless Mouse",
+		"category" : "Electronics",
+		"price" : 29.99
+	},
+	{
+		"product_id" : 3,
+		"product_name" : "Office Desk",
+		"category" : "Furniture",
+		"price" : 249.99
+	},
+	{
+		"product_id" : 4,
+		"product_name" : "Ergonomic Chair",
+		"category" : "Furniture",
+		"price" : 399.99
+	},
+	{
+		"product_id" : 5,
+		"product_name" : "Noise‑Cancelling Headphones",
+		"category" : "Electronics",
+		"price" : 199.99
+	},
+	{
+		"product_id" : 6,
+		"product_name" : "Smartphone X",
+		"category" : "Electronics",
+		"price" : 999.99
+	},
+	{
+		"product_id" : 7,
+		"product_name" : "Standing Desk Converter",
+		"category" : "Furniture",
+		"price" : 159.99
+	},
+	{
+		"product_id" : 8,
+		"product_name" : "4K Monitor 27\"",
+		"category" : "Electronics",
+		"price" : 449.99
+	},
+	{
+		"product_id" : 9,
+		"product_name" : "Portable SSD 1TB",
+		"category" : "Electronics",
+		"price" : 119.99
+	},
+	{
+		"product_id" : 10,
+		"product_name" : "LED Desk Lamp",
+		"category" : "Home",
+		"price" : 39.99
+	},
+	{
+		"product_id" : 11,
+		"product_name" : "Bluetooth Speaker",
+		"category" : "Electronics",
+		"price" : 79.99
+	},
+	{
+		"product_id" : 12,
+		"product_name" : "Gaming Keyboard",
+		"category" : "Electronics",
+		"price" : 89.99
+	},
+	{
+		"product_id" : 13,
+		"product_name" : "Coffee Maker",
+		"category" : "Home",
+		"price" : 59.99
+	},
+	{
+		"product_id" : 14,
+		"product_name" : "Water Bottle Stainless",
+		"category" : "Sports",
+		"price" : 24.99
+	},
+	{
+		"product_id" : 15,
+		"product_name" : "Yoga Mat",
+		"category" : "Sports",
+		"price" : 34.99
+	}
+]}

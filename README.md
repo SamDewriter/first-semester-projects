@@ -50,12 +50,14 @@ Define each table with the following columns:
   - `name`
   - `email`
   - `join_date`
+
 - **`products`**
 
   - `product_id` (Primary Key)
   - `product_name`
   - `category`
   - `price`
+
 - **`orders`**
 
   - `order_id` (Primary Key)
@@ -70,21 +72,23 @@ Insert at least **5 rows** into each table with realistic sample values.
 
 ### 3. Practice the Following SQL Queries
 
-* **Basic Queries**
+- **Basic Queries**
 
-  * Use `SELECT` to retrieve all customers or all products.
-  * Use `WHERE` to filter products by category (e.g., `"Drinks"`).
-  * Use `ORDER BY` to list recent orders by date.
-* **Aggregation**
+  - Use `SELECT` to retrieve all customers or all products.
+  - Use `WHERE` to filter products by category (e.g., `"Drinks"`).
+  - Use `ORDER BY` to list recent orders by date.
 
-  * Use `COUNT()` to find the number of total orders.
-  * Use `SUM()` to calculate revenue per product (price × quantity).
-  * Use `AVG()` to find the average product price.
-* **Joins**
+- **Aggregation**
 
-  * Use `INNER JOIN` to get detailed order information (with customer and product details).
-  * Use `LEFT JOIN` to list all customers and include their orders (if any).
-  * Use `LEFT JOIN` to show products even if they haven’t been ordered.
+  - Use `COUNT()` to find the number of total orders.
+  - Use `SUM()` to calculate revenue per product (price × quantity).
+  - Use `AVG()` to find the average product price.
+
+- **Joins**
+
+  - Use `INNER JOIN` to get detailed order information (with customer and product details).
+  - Use `LEFT JOIN` to list all customers and include their orders (if any).
+  - Use `LEFT JOIN` to show products even if they haven’t been ordered.
 
 #### 🧩 Python Tasks
 
@@ -114,6 +118,7 @@ python main.py
    git clone https://github.com/SamDewriter/first-semester-projects.git
    cd first-semester-projects
    ```
+
 3. Complete all tasks inside `month1_student_management/` and `month2_minimart_analysis/`.
 4. **Commit and Push**:
 
@@ -122,6 +127,7 @@ python main.py
    git commit -m "Completed Month 1 & 2 projects"
    git push origin main
    ```
+
 5. **Submit your GitHub repo link**.
 
 ---
@@ -133,3 +139,5 @@ python main.py
 - Any text editor or IDE (VSCode, PyCharm, etc.)
 
 Happy coding! 🎉
+
+/Users/jakpu/dev/data/alt-schl/first-semester-projects/month2_minimart_analysis/sql/json-report
