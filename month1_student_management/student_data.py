@@ -21,7 +21,7 @@ def add_student():
     }
     students.append(student)
     print(f"Student with details: '{name}', age '{age}' and grade '{grade}' added successfully!")
-    pass
+  
 
 # Loop through the students list and print each student's info.
 def view_students():
@@ -31,7 +31,7 @@ def view_students():
         print("\n STUDENTS LIST ")  
         for index, student in enumerate(students, start = 1):
             print (f"{index}. {student} ")
-    pass
+    
 
  # Return the average grade of all students.
 def get_average_grade():
@@ -58,4 +58,3 @@ def get_average_grade():
             averageGrade ='F' 
     print(f"\n Average letter Grade is:{averageGrade}")
     print(f"\n Average number Grade is:{average:.2f}")
-    pass
